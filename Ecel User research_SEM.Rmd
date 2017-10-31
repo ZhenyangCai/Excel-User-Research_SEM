@@ -46,6 +46,7 @@ Items <- select(NoMultiOutlier, Playful_1:DecQual_8)
 nrow(NoMultiOutlier) # 361
 nrow(Items)  # 380    19 cases are deleted
 ```
+![](Figures/unnamed-chunk-10-1.png)<!-- -->
 
 Check the multivariate outliers and found that the mahalnobis distance of 19 cases is higher than the cutoff value, so delete those cases.
 
